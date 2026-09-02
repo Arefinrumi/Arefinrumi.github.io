@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>S. M. Arefin Rumi — DevOps &amp; Infrastructure Engineer</title>
+<meta name="description" content="DevOps and Infrastructure Engineer with 9+ years across network operations, systems engineering and cloud automation. Oracle Cloud Infrastructure, Cloudflare, Docker, Jenkins, Ansible, Percona XtraDB Cluster.">
+<meta name="author" content="S. M. Arefin Rumi">
+<meta name="theme-color" content="#0b0f14">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="S. M. Arefin Rumi — DevOps &amp; Infrastructure Engineer">
+<meta property="og:description" content="9+ years from the network layer up through the deployment pipeline. OCI, Cloudflare, Docker, Jenkins, Ansible, Galera.">
+<meta property="og:url" content="https://arefinrumi.github.io/">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="grid-bg" aria-hidden="true"></div>
+
+<!-- ───────────────────────── NAV ───────────────────────── -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-prompt">~/</span><span class="brand-name">arefin</span><span class="caret" aria-hidden="true">▊</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#experience">experience</a>
+      <a href="#projects">projects</a>
+      <a href="#certifications">certs</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Switch to light theme" title="Toggle theme">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22M4.9 4.9l1.9 1.9M17.2 17.2l1.9 1.9M19.1 4.9l-1.9 1.9M6.8 17.2l-1.9 1.9"/></svg>
+      </button>
+      <a class="btn btn-sm" href="assets/cv/S_M_Arefin_Rumi_DevOps_Engineer_Resume.pdf" download>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 19h16"/></svg>
+        <span>Résumé</span>
+      </a>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ───────────────────────── HERO ───────────────────────── -->
+<section class="hero">
+  <div class="wrap hero-grid">
+
+    <div class="hero-copy">
+      <p class="eyebrow">DevOps &nbsp;·&nbsp; Cloud Infrastructure &nbsp;·&nbsp; Site Reliability</p>
+      <h1>S. M. Arefin&nbsp;Rumi</h1>
+      <p class="lede">
+        I build and operate the infrastructure behind national-scale video platforms —
+        and I own it from the <span class="hl">network layer</span> up through the
+        <span class="hl">deployment pipeline</span>.
+      </p>
+
+      <div class="hero-meta">
+        <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>Dhaka, Bangladesh</span>
+        <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>9+ years in production</span>
+        <span class="avail"><i aria-hidden="true"></i>Open to opportunities</span>
+      </div>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">
+          <span>View projects</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6"/></svg>
+        </a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <!-- terminal -->
+    <div class="term" role="img" aria-label="Terminal window showing a summary of Arefin Rumi's role, stack and projects">
+      <div class="term-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        <span class="term-title">arefin@dhaka: ~</span>
+      </div>
+      <pre class="term-body" id="termBody" aria-hidden="true"></pre>
+      <div class="term-static">
+        <p>$ whoami → S. M. Arefin Rumi, DevOps &amp; Infrastructure Engineer, Synesis IT PLC.</p>
+        <p>$ ls ./projects → hls-edge-cdn, pxc-galera-cluster, jitsi-ansible-iac, secure-cicd, jibri-fleet</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- stats -->
+  <div class="wrap">
+    <ul class="stats reveal">
+      <li><b data-count="9" data-suffix="+">9+</b><span>years in production</span></li>
+      <li><b data-count="99.9" data-suffix="%">99.9%</b><span>availability sustained</span></li>
+      <li><b data-count="50" data-suffix="+">50+</b><span>server estate managed</span></li>
+      <li><b data-count="5" data-suffix="">5</b><span>flagship platform builds</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────────────────────── ABOUT ───────────────────────── -->
+<section id="about" class="sec">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="sec-n">01</span> about <span class="sec-c">// the short version</span></h2>
+
+    <div class="about-grid">
+      <div class="about-main reveal">
+        <p>
+          I started in a network operations centre watching alarms at 3&nbsp;a.m., moved into systems and
+          data-centre engineering, and now run the platforms themselves. That path is the point: when a
+          video stream drops, I don't have to guess whether it's the pipeline, the proxy, the database or
+          the firewall — I can go and look at all four.
+        </p>
+        <p>
+          Today I'm responsible for the production infrastructure behind the <b>Convay</b> video-conferencing
+          platform and Bangladesh's <b>333</b> and <b>DIP</b> national contact-centre services on Oracle Cloud
+          Infrastructure. Containerised with Docker, released through Jenkins and GitLab CI with SonarQube
+          and Trivy gates, and observed end to end with Prometheus, Grafana, Zabbix and Sentry.
+        </p>
+        <p>
+          The work I'm proudest of tends to be unglamorous: a Galera cluster that came back from a total
+          power failure, a nine-playbook Ansible pipeline that turned a multi-day manual build into one
+          command, a runbook that means the next person doesn't need me at 3&nbsp;a.m. either.
+        </p>
+      </div>
+
+      <aside class="about-card reveal">
+        <h3>At a glance</h3>
+        <dl>
+          <dt>Current</dt><dd>DevOps Engineer, Synesis IT PLC</dd>
+          <dt>Focus</dt><dd>Cloud infrastructure, CI/CD, observability, HA databases, edge delivery</dd>
+          <dt>Foundation</dt><dd>CCNA-certified — production BGP, OSPF, IPsec</dd>
+          <dt>Degree</dt><dd>B.Sc. Electronic &amp; Telecommunication Engineering, ULAB</dd>
+          <dt>Writing</dt><dd><a href="https://arefinrumi.hashnode.dev" target="_blank" rel="noopener">arefinrumi.hashnode.dev</a></dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── SKILLS ───────────────────────── -->
+<section id="skills" class="sec sec-alt">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="sec-n">02</span> skills <span class="sec-c">// what I reach for</span></h2>
+
+    <div class="skills">
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 10a5 5 0 0 0-9.6-1.6A4 4 0 0 0 7 16h10.5A3.5 3.5 0 0 0 18 10Z"/></svg><h3>Cloud &amp; Platform</h3></header>
+        <ul>
+          <li>Oracle Cloud Infrastructure</li><li>Cloudflare Workers</li><li>R2</li><li>D1</li>
+          <li>Durable Objects</li><li>Load Balancer</li><li>Tunnel</li><li>AWS EC2</li><li>VMware ESXi</li><li>Bare metal</li>
+        </ul>
+      </article>
+
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8.5 12 4l9 4.5-9 4.5-9-4.5Z"/><path d="M3 15.5 12 20l9-4.5"/></svg><h3>Containers</h3></header>
+        <ul>
+          <li>Docker</li><li>Docker Compose</li><li>Multi-stage builds</li><li>Harbor registry</li><li>Kubernetes <em>(CKA training)</em></li>
+        </ul>
+      </article>
+
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="2.6"/><circle cx="6" cy="18" r="2.6"/><circle cx="18" cy="12" r="2.6"/><path d="M6 8.6v6.8M8.6 6h4.2a2.6 2.6 0 0 1 2.6 2.6v1M8.6 18h4.2a2.6 2.6 0 0 0 2.6-2.6v-1"/></svg><h3>CI/CD &amp; Automation</h3></header>
+        <ul>
+          <li>Jenkins</li><li>GitLab CI</li><li>Ansible</li><li>ArgoCD</li><li>Git</li><li>SonarQube</li><li>Trivy</li><li>Bash</li><li>Python</li><li>Wrangler</li>
+        </ul>
+      </article>
+
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h3.5l2.5-6 3 12 2.5-8 2 4H21"/></svg><h3>Observability</h3></header>
+        <ul>
+          <li>Prometheus</li><li>Grafana</li><li>Zabbix</li><li>Coroot</li><li>Sentry</li><li>Nagios</li><li>Cacti</li><li>Log-driven RCA</li>
+        </ul>
+      </article>
+
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="6" rx="7.5" ry="3"/><path d="M4.5 6v6c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3V6"/><path d="M4.5 12v6c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3v-6"/></svg><h3>Databases &amp; HA</h3></header>
+        <ul>
+          <li>Percona XtraDB Cluster</li><li>Galera</li><li>MySQL</li><li>ProxySQL</li><li>HAProxy</li><li>PostgreSQL</li><li>MongoDB</li><li>SST recovery</li>
+        </ul>
+      </article>
+
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.4 3.9 5.6 3.9 9S14.5 18.6 12 21c-2.5-2.4-3.9-5.6-3.9-9S9.5 5.4 12 3Z"/></svg><h3>Web, Proxy &amp; Delivery</h3></header>
+        <ul>
+          <li>NGINX</li><li>Reverse proxy</li><li>TLS termination</li><li>CORS</li><li>Apache</li><li>DNS</li><li>CDN</li><li>HLS delivery</li>
+        </ul>
+      </article>
+
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg><h3>Operating Systems</h3></header>
+        <ul>
+          <li>Ubuntu</li><li>CentOS</li><li>RHEL</li><li>Windows Server</li><li>systemd</li><li>Hardening</li><li>Backup &amp; DR</li>
+        </ul>
+      </article>
+
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="8.5" width="19" height="7" rx="1.6"/><path d="M6.5 12h1.5M10.5 12H12"/><path d="M7 8.5V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2.5M7 15.5V18a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2.5"/></svg><h3>Networking</h3></header>
+        <ul>
+          <li>TCP/IP</li><li>VLSM</li><li>VLANs</li><li>STP</li><li>BGP</li><li>OSPF</li><li>EIGRP</li><li>IPsec VPN</li>
+          <li>Cisco</li><li>Juniper</li><li>MikroTik</li><li>FortiGate</li><li>IIG / GGC</li>
+        </ul>
+      </article>
+
+      <article class="skill reveal">
+        <header><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 8.5 21 5.5v13l-6-3z"/><rect x="3" y="6.5" width="12" height="11" rx="2"/></svg><h3>Real-Time Media</h3></header>
+        <ul>
+          <li>Jitsi Meet</li><li>Jibri recording</li><li>Owncast</li><li>HLS packaging</li><li>Token-authenticated segments</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── EXPERIENCE ───────────────────────── -->
+<section id="experience" class="sec">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="sec-n">03</span> experience <span class="sec-c">// 2017 → present</span></h2>
+
+    <ol class="timeline">
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-head">
+            <h3>DevOps Engineer</h3>
+            <span class="tl-when now">Aug 2023 — Present</span>
+          </div>
+          <p class="tl-org">Synesis IT PLC · Dhaka</p>
+          <ul>
+            <li>Own production deployment and day-two operations for the Convay video-conferencing platform and the national 333 and DIP contact-centre services.</li>
+            <li>Engineer multi-tier Java and React workloads on OCI — compute, block and object storage, VCN networking, and continuous right-sizing to control spend.</li>
+            <li>Design and maintain Jenkins and GitLab CI/CD pipelines with SonarQube quality gates and Trivy image scanning, replacing manual releases with self-service deployments.</li>
+            <li>Run the observability stack so capacity pressure and application errors are actioned before users report them.</li>
+            <li>Operate MySQL and Percona XtraDB Cluster behind HAProxy and ProxySQL, including disaster-recovery exercises against real failure scenarios.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-head">
+            <h3>Senior System Engineer <em>(Assistant Manager)</em></h3>
+            <span class="tl-when">Sep 2021 — Sep 2023</span>
+          </div>
+          <p class="tl-org">Synesis IT PLC · Dhaka</p>
+          <ul>
+            <li>Designed and implemented scalable, secure server architectures across on-premise data centre and cloud estates.</li>
+            <li>Oversaw a 50+ server mixed estate — Linux, Windows, VMware, load balancers, AWS EC2 — sustaining 99.9% availability through Zabbix and Nagios plus automated remediation.</li>
+            <li>Led hardware, OS and network incident troubleshooting; introduced tooling that removed recurring manual operations.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-head">
+            <h3>IT Infrastructure Engineer</h3>
+            <span class="tl-when">Aug 2020 — Aug 2021</span>
+          </div>
+          <p class="tl-org">Synesis IT PLC · Dhaka</p>
+          <ul>
+            <li>Decomposed monolithic applications into Docker-containerised services, deployed through Git, Jenkins and Ansible.</li>
+            <li>Built the organisation's first CI/CD release flows for staging and production, plus the NGINX configurations fronting them.</li>
+            <li>Installed, hardened and patched Red Hat, CentOS, Ubuntu and Windows Server systems and their applications.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-head">
+            <h3>Network Engineer</h3>
+            <span class="tl-when">Mar 2019 — Nov 2019</span>
+          </div>
+          <p class="tl-org">Biometrics BD Ltd. · Juniper Networks Partner</p>
+          <ul>
+            <li>Designed and maintained Juniper-based enterprise networks — including core upgrade design for Chittagong Port Authority on SRX and EX series, and a Bangladesh Army upgrade on MX and SRX.</li>
+            <li>Configured BGP, OSPF and IPsec site-to-site connectivity, including a Juniper MX-104 to Cisco tunnel and a Dhaka-to-India FortiGate tunnel.</li>
+            <li>Rolled out MikroTik access points across 10 sites.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-head">
+            <h3>Engineer, Network Operations Centre</h3>
+            <span class="tl-when">May 2017 — Feb 2019</span>
+          </div>
+          <p class="tl-org">Earth Telecommunications (Pvt.) Ltd. · IIG Operator</p>
+          <ul>
+            <li>Monitored alarms around the clock and resolved faults within SLA across fibre-optic and wireless segments.</li>
+            <li>Configured Cisco, Juniper and MikroTik routers and switches; administered IIG, ISP and Google Global Cache networks.</li>
+            <li>Implemented the company's 10G network upgrade and executed a full data-centre relocation.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ───────────────────────── PROJECTS ───────────────────────── -->
+<section id="projects" class="sec sec-alt">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="sec-n">04</span> projects <span class="sec-c">// selected builds</span></h2>
+    <p class="sec-sub">Five systems I designed, built or brought back from the dead. Problem, what I did, what changed.</p>
+
+    <div class="projects">
+
+      <article class="proj reveal">
+        <div class="proj-idx" aria-hidden="true">01</div>
+        <h3>Cloudflare Edge HLS Live-Streaming Platform</h3>
+        <ul class="tags">
+          <li>Workers</li><li>R2</li><li>D1</li><li>Durable Objects</li><li>Load Balancer</li><li>Owncast</li><li>Wrangler</li>
+        </ul>
+        <p>
+          Built a token-authenticated HLS delivery path for live and on-demand video: an R2 origin with
+          scoped API tokens and explicit CORS and cache rules, a Workers read-through CDN issuing and
+          validating per-segment tokens, a steered Load Balancer in front of an Owncast origin, and
+          per-viewer bandwidth metering in D1 backed by Durable Objects.
+        </p>
+        <ul class="outcomes">
+          <li>Cache semantics tuned separately for short-TTL live manifests and immutable media segments.</li>
+          <li>Dashboard-deployed Workers brought back under source control with Wrangler versioning and rollback.</li>
+          <li>Silent metering failures traced to D1 schema drift and closed off.</li>
+        </ul>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-idx" aria-hidden="true">02</div>
+        <h3>Three-Node Percona XtraDB Cluster</h3>
+        <ul class="tags">
+          <li>PXC 8.0</li><li>Galera</li><li>HAProxy</li><li>Ubuntu 22.04</li><li>systemd</li><li>UFW</li>
+        </ul>
+        <p>
+          Bootstrapped a synchronous MySQL cluster to remove a single database point of failure, fronted
+          by HAProxy in single-writer mode with clustercheck health endpoints on every node and firewall
+          rules scoping replication ports to the cluster subnet. Rebuilt the packaging and systemd layer
+          on hosts where a previous install had been partially purged.
+        </p>
+        <ul class="outcomes">
+          <li>Recovered a full-cluster power failure through <code>wsrep-recover</code>.</li>
+          <li>Diagnosed and fixed a disk-full state snapshot transfer failure mid-incident.</li>
+          <li>Restored internal SST accounts after a schema restore overwrote them.</li>
+          <li>Wrote the operational runbook the team now works from.</li>
+        </ul>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-idx" aria-hidden="true">03</div>
+        <h3>Ansible Automation for Jitsi Meet Deployments</h3>
+        <ul class="tags">
+          <li>Ansible</li><li>Python</li><li>Google Sheets API</li><li>OCI</li><li>Ubuntu</li>
+        </ul>
+        <p>
+          Replaced manual multi-VM Jitsi Meet build-outs with a nine-playbook Ansible pipeline driven by a
+          Python configuration engine that reads deployment parameters straight from Google Sheets —
+          turning a multi-day hand-built deployment into a repeatable run against a flat inventory.
+        </p>
+        <ul class="outcomes">
+          <li>Presented the design and operating model to an external client audience in a 45-slide walkthrough.</li>
+          <li>Non-engineers can now define a deployment without touching a playbook.</li>
+        </ul>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-idx" aria-hidden="true">04</div>
+        <h3>Secure CI/CD Pipeline for a Spring Boot API Gateway</h3>
+        <ul class="tags">
+          <li>Jenkins</li><li>Harbor</li><li>SonarQube</li><li>Trivy</li><li>Docker Compose</li><li>Maven</li>
+        </ul>
+        <p>
+          Built and demonstrated a nine-stage Jenkins pipeline — build, test, SonarQube quality gate,
+          image build, Trivy vulnerability scan, private registry push, deploy — for a Spring Boot API
+          gateway serving a public-sector client.
+        </p>
+        <ul class="outcomes">
+          <li>Resolved Maven plugin resolution failures and SonarQube unreachability from containerised agents.</li>
+          <li>Fixed webhook misconfiguration and workspace permission errors blocking the pipeline.</li>
+          <li>Scanning surfaced genuine CVEs and a hardcoded credential, escalated for immediate rotation.</li>
+        </ul>
+      </article>
+
+      <article class="proj reveal">
+        <div class="proj-idx" aria-hidden="true">05</div>
+        <h3>Recording Fleet &amp; Edge Delivery Troubleshooting</h3>
+        <ul class="tags">
+          <li>Jibri</li><li>Docker</li><li>NGINX</li><li>FortiGate</li><li>Cloudflare Tunnel</li><li>DNS</li>
+        </ul>
+        <p>
+          Operated a four-container Jibri conference-recording fleet and restored it after an outage traced
+          to an outdated CA bundle inside the container image failing to trust a newly issued TLS root —
+          resolved by bind-mounting the host trust store.
+        </p>
+        <ul class="outcomes">
+          <li>Isolated intermittent video playback failures to FortiGate WAN inspection dropping media responses.</li>
+          <li>Proved it through NGINX access-log correlation and encoded asset-path analysis.</li>
+          <li>Specified a Cloudflare Tunnel path to bypass inbound inspection, plus a malformed DNS record fix.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── CERTS ───────────────────────── -->
+<section id="certifications" class="sec">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="sec-n">05</span> certifications <span class="sec-c">// verified credentials</span></h2>
+
+    <div class="certs">
+      <div class="cert reveal">
+        <span class="cert-badge">Cisco</span>
+        <h3>CCNA — Routing &amp; Switching</h3>
+        <p>Cisco Systems · January 2019<br><span class="mono">ID CSCO13400963</span></p>
+      </div>
+      <div class="cert reveal">
+        <span class="cert-badge">Juniper</span>
+        <h3>JNCIA-Junos</h3>
+        <p>Juniper Networks Certified Associate<br>Enterprise Routing &amp; Switching</p>
+      </div>
+      <div class="cert reveal">
+        <span class="cert-badge">Fortinet</span>
+        <h3>NSE 1 &amp; NSE 2</h3>
+        <p>Network Security Associate<br>Fortinet · April 2020</p>
+      </div>
+      <div class="cert reveal">
+        <span class="cert-badge">AWS</span>
+        <h3>Cloud Practitioner Essentials</h3>
+        <p>Amazon Web Services · May 2025</p>
+      </div>
+    </div>
+
+    <h3 class="sub-h">Professional training &amp; course completion</h3>
+    <ul class="training reveal">
+      <li><b>CKA, DevOps Engineer &amp; Docker Certified Associate</b> — training programmes, Linux Pathshala, 2022</li>
+      <li><b>Prometheus (PCA), ArgoCD, Jenkins, Docker, Shell Scripting</b> — course completion, 2023</li>
+      <li><b>AWS Running on Cloud</b> — Page Cloud Academy, 2023</li>
+      <li><b>Cisco Networking Academy</b> — full CCNA R&amp;S track, four courses (2018); Introduction to Cybersecurity (2020)</li>
+    </ul>
+
+    <h3 class="sub-h">Education</h3>
+    <ul class="edu reveal">
+      <li><b>B.Sc. in Electronic &amp; Telecommunication Engineering</b><span>University of Liberal Arts Bangladesh (ULAB), Dhaka</span><i>2015</i></li>
+      <li><b>Higher Secondary Certificate — Science</b><span>Ideal College, Dhaka</span><i>2007</i></li>
+      <li><b>Secondary School Certificate — Science</b><span>Motijheel Model High School &amp; College, Dhaka</span><i>2005</i></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────────────────────── CONTACT ───────────────────────── -->
+<section id="contact" class="sec sec-alt">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="sec-n">06</span> contact <span class="sec-c">// let's talk</span></h2>
+
+    <div class="contact-grid">
+      <div class="contact-copy reveal">
+        <p class="contact-lede">
+          If you're hiring for infrastructure, platform or SRE work — or you've got a system that keeps
+          falling over and you want a second pair of eyes — I'd like to hear about it.
+        </p>
+        <a class="btn btn-primary btn-lg" href="mailto:smarefin7@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg>
+          <span>smarefin7@gmail.com</span>
+        </a>
+        <button class="copy-btn" id="copyBtn" type="button" data-email="smarefin7@gmail.com">copy address</button>
+      </div>
+
+      <ul class="links reveal">
+        <li><a href="mailto:smarefin7@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg>
+          <b>Email</b><span>smarefin7@gmail.com</span></a></li>
+        <li><a href="tel:+8801687345253">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h3l2 5-2.5 1.5a12 12 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4 6.2 2 2 0 0 1 6 4Z"/></svg>
+          <b>Phone</b><span>+880 1687 345253</span></a></li>
+        <li><a href="https://linkedin.com/in/s-m-arefin-rumi-10a8341a9" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2.5"/><path d="M7.5 10.5V17M7.5 7.4v.1M11.5 17v-3.6a2 2 0 0 1 4 0V17"/></svg>
+          <b>LinkedIn</b><span>s-m-arefin-rumi</span></a></li>
+        <li><a href="https://arefinrumi.hashnode.dev" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h16M4 17.5h10"/></svg>
+          <b>Blog</b><span>arefinrumi.hashnode.dev</span></a></li>
+        <li><a href="https://github.com/Arefinrumi" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.4-4-2.2-6-2.8m12 5.6v-3.6a3.2 3.2 0 0 0-.9-2.5c3-.3 5-1.5 5-6.3a4.9 4.9 0 0 0-1.3-3.4 3.7 3.7 0 0 0-.1-3.5S16.5 2 14 3.8a11.6 11.6 0 0 0-6 0C5.5 2 4.3 2.5 4.3 2.5a3.7 3.7 0 0 0-.1 3.5A4.9 4.9 0 0 0 2.9 9.4c0 4.8 2 6 5 6.3a3.2 3.2 0 0 0-.9 2.5V22"/></svg>
+          <b>GitHub</b><span>Arefinrumi</span></a></li>
+        <li><a href="assets/cv/S_M_Arefin_Rumi_DevOps_Engineer_Resume.pdf" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 19h16"/></svg>
+          <b>Résumé</b><span>Download PDF · 2 pages</span></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p class="mono">$ echo "built by hand · Dhaka, Bangladesh"</p>
+    <p class="foot-meta">© <span id="year">2026</span> S. M. Arefin Rumi · <a href="#top">back to top ↑</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
